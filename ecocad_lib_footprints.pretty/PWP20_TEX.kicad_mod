@@ -1258,7 +1258,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "725cb030-ec83-4d64-bc50-7827b477d54c")
 	)
-	(model "C:/Users/nsemm/Desktop/EcoCad-Lib/ecocad_lib_3dmodels/PWP0020A.stp"
+	(model "${ECOCAD_3DMODELS}/PWP0020A.stp"
 		(offset
 			(xyz 0 0 0)
 		)
