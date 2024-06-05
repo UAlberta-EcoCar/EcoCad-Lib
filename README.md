@@ -20,5 +20,6 @@ Installation of the EcoCad library involves three steps: schematic symbol link, 
 
 If this didn't work for you, repeat these steps and double check that you have inputed the correct paths for each step. The nickname for each step is CASE SENSITIVE and must be IDENTICAL. If this still hasn't worked, please reach out for help.
 
-
-
+## How to install Digi-key library
+1. In your terminal (i.e git bash) run the command 'git submodule init', then 'git submodule update'. This will clone the digi-key submodule library onto your local copy
+2. As in the previous steps, add whichever symbol library desired from the legacy folder of symbols (choose Legacy format in global tab) and add the foot prints folder as before
