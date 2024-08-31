@@ -860,8 +860,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 7.62 0)
+		(property "Reference" "U6"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -869,14 +869,14 @@
 			)
 		)
 		(property "Value" "AZ1117IH-3.3"
-			(at 0 5.08 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "SOT223_AZ1117I_6P5X3P5_DIO"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at -1.27 -10.16 0)
 			(effects
 				(font
@@ -886,7 +886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "AZ1117IH-3.3TRG1"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806151415_Diodes-Incorporated-AZ1117EH-3-3TRG1_C108494.pdf"
 			(at -1.27 -10.16 0)
 			(effects
 				(font
@@ -897,6 +897,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK #" "AZ1117IH-3.3TRG1DICT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part#(optional)" ""
 			(at 0 0 0)
 			(effects
 				(font
