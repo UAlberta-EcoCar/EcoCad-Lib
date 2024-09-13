@@ -229,4 +229,15 @@
 			(xyz -90 0 90)
 		)
 	)
+	(model "${ECOCAD_3D_MODELS}/7691.step"
+		(offset
+			(xyz -1.5 2 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )
