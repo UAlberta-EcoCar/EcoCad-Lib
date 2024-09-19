@@ -251,4 +251,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${ECOCAD_3D_MODELS}/1017503.stp"
+		(offset
+			(xyz 0 1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
