@@ -1138,7 +1138,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ecocad_lib_footprints:DB7W2-30A"
 			(at -0.508 18.796 0)
 			(effects
 				(font
@@ -10257,7 +10257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8"
 			(at 0 0 0)
 			(effects
 				(font
