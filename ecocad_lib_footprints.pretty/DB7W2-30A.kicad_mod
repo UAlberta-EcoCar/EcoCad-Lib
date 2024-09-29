@@ -552,15 +552,4 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${ECOCAD_3D_MODELS}/09692009032_100633093MOD000B.stp"
-		(offset
-			(xyz 0 -10.5 7)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 0)
-		)
-	)
 )
