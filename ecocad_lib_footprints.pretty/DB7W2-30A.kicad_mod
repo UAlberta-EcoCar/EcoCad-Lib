@@ -240,7 +240,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Eco1.User")
+		(layer "F.Fab")
 		(uuid "01ce3aff-ac82-4d26-9e1f-3e82f2cf7f03")
 		(pts
 			(xy 2.767 1.244) (xy 2.767 10.668)
@@ -248,7 +248,7 @@
 		(height -8.663)
 		(gr_text "9.4240 mm"
 			(at 10.33 5.956 90)
-			(layer "Eco1.User")
+			(layer "F.Fab")
 			(uuid "01ce3aff-ac82-4d26-9e1f-3e82f2cf7f03")
 			(effects
 				(font
@@ -273,7 +273,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Eco1.User")
+		(layer "F.Fab")
 		(uuid "0910aa9b-615d-43d6-aaa5-c5b648de372c")
 		(pts
 			(xy -6.86 -1.556) (xy -6.86 10.668)
@@ -281,7 +281,7 @@
 		(height 4.57)
 		(gr_text "12.2240 mm"
 			(at -12.53 4.556 90)
-			(layer "Eco1.User")
+			(layer "F.Fab")
 			(uuid "0910aa9b-615d-43d6-aaa5-c5b648de372c")
 			(effects
 				(font
@@ -306,7 +306,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Eco1.User")
+		(layer "F.Fab")
 		(uuid "2f13d6cb-0115-41b5-841b-9b15556d0881")
 		(pts
 			(xy -6.86 -1.556) (xy 6.86 -1.556)
@@ -314,7 +314,7 @@
 		(height -5.937)
 		(gr_text "13.7200 mm"
 			(at 0 -8.593 0)
-			(layer "Eco1.User")
+			(layer "F.Fab")
 			(uuid "2f13d6cb-0115-41b5-841b-9b15556d0881")
 			(effects
 				(font
@@ -339,7 +339,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Eco1.User")
+		(layer "F.Fab")
 		(uuid "5b72f950-d02c-4c3a-ab4f-98f8227cb5bd")
 		(pts
 			(xy -16.623 -0.956) (xy -16.623 10.668)
@@ -347,7 +347,7 @@
 		(height 5.348)
 		(gr_text "11.6240 mm"
 			(at -23.071 4.856 90)
-			(layer "Eco1.User")
+			(layer "F.Fab")
 			(uuid "5b72f950-d02c-4c3a-ab4f-98f8227cb5bd")
 			(effects
 				(font
@@ -372,7 +372,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Eco1.User")
+		(layer "F.Fab")
 		(uuid "87c34825-9c83-4851-973e-a06dd7227a2c")
 		(pts
 			(xy 5.434 1.27) (xy 5.434 -1.625)
@@ -380,7 +380,7 @@
 		(height 8.663)
 		(gr_text "2.8950 mm"
 			(at 12.997 -0.1775 90)
-			(layer "Eco1.User")
+			(layer "F.Fab")
 			(uuid "87c34825-9c83-4851-973e-a06dd7227a2c")
 			(effects
 				(font
@@ -405,7 +405,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Eco1.User")
+		(layer "F.Fab")
 		(uuid "c903cebd-82a1-460d-86af-76f4ca743415")
 		(pts
 			(xy -1.373 -1.596) (xy 1.397 -1.596)
@@ -413,7 +413,7 @@
 		(height -3.12)
 		(gr_text "2.7700 mm"
 			(at 0.012 -5.816 0)
-			(layer "Eco1.User")
+			(layer "F.Fab")
 			(uuid "c903cebd-82a1-460d-86af-76f4ca743415")
 			(effects
 				(font
@@ -438,7 +438,7 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "Eco1.User")
+		(layer "F.Fab")
 		(uuid "ef3f6124-314f-47b0-a7a2-6aeeef5d26a7")
 		(pts
 			(xy -16.623 -0.956) (xy 16.677 -0.956)
@@ -446,7 +446,7 @@
 		(height -8.696)
 		(gr_text "33.3000 mm"
 			(at 0.027 -10.752 0)
-			(layer "Eco1.User")
+			(layer "F.Fab")
 			(uuid "ef3f6124-314f-47b0-a7a2-6aeeef5d26a7")
 			(effects
 				(font
@@ -544,17 +544,6 @@
 	(model "${ECOCAD_3D}/09692009032_100633093MOD000B.stp"
 		(offset
 			(xyz -0.103 -10 7.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 0)
-		)
-	)
-	(model "${ECOCAD_3D_MODELS}/09692009032_100633093MOD000B.stp"
-		(offset
-			(xyz 0 -10.5 7)
 		)
 		(scale
 			(xyz 1 1 1)
