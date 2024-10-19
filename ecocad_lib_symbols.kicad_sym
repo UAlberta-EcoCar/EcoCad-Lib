@@ -1118,12 +1118,363 @@
 			)
 		)
 	)
-	(symbol "DB7W2"
+	(symbol "DB7W2-Female"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -0.508 15.494 0)
+			(at 0.508 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -3.175 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ecocad_lib_footprints:DB7W2-30A"
+			(at -0.508 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.175 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -3.175 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DB7W2-Female_0_1"
+			(circle
+				(center -1.397 -5.08)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.397 0)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.397 5.08)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -10.16)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -10.16) (xy 2.54 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -5.08) (xy -0.635 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -2.54) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0) (xy -0.635 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 2.54) (xy 2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 5.08) (xy -0.635 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 10.16) (xy 2.54 10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.556 -15.494) (xy 3.556 15.494) (xy -4.064 11.684) (xy -4.064 -11.684) (xy 3.556 -15.494)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 10.16)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.905 -2.54)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.905 2.54)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DB7W2-Female_1_1"
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -10.16 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 10.16 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "DB7W2-Male"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 5.08 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,8 +1489,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ecocad_lib_footprints:DB7W2-30A"
-			(at -0.508 18.796 0)
+		(property "Footprint" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,38 +1516,27 @@
 				(hide yes)
 			)
 		)
-		(symbol "DB7W2_0_1"
+		(symbol "DB7W2-Male_0_1"
 			(circle
-				(center -1.778 -5.08)
+				(center -1.27 -2.54)
 				(radius 0.762)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(circle
-				(center -1.778 0)
+				(center -1.27 2.54)
 				(radius 0.762)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -1.778 5.08)
-				(radius 0.762)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(circle
@@ -1207,12 +1547,12 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy -3.81 -10.16) (xy -2.54 -10.16)
+					(xy 3.81 -10.16) (xy 2.54 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -1224,7 +1564,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -5.08) (xy -2.54 -5.08)
+					(xy 3.81 -5.08) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -1236,7 +1576,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 -2.54) (xy 0.508 -2.54)
+					(xy 3.81 -2.54) (xy -0.508 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1248,7 +1588,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 0) (xy -2.54 0)
+					(xy 3.81 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -1260,7 +1600,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 2.54) (xy 0.508 2.54)
+					(xy 3.81 2.54) (xy -0.508 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1272,7 +1612,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 5.08) (xy -2.54 5.08)
+					(xy 3.81 5.08) (xy 2.54 5.08)
 				)
 				(stroke
 					(width 0)
@@ -1284,7 +1624,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 10.16) (xy -2.54 10.16)
+					(xy 3.81 10.16) (xy 2.54 10.16)
 				)
 				(stroke
 					(width 0)
@@ -1296,7 +1636,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.556 15.494) (xy -3.556 -15.494) (xy 4.064 -11.684) (xy 4.064 11.684) (xy -3.556 15.494)
+					(xy -3.175 -15.24) (xy -3.175 15.748) (xy 4.445 11.938) (xy 4.445 -11.43) (xy -3.175 -15.24)
 				)
 				(stroke
 					(width 0.254)
@@ -1307,6 +1647,41 @@
 				)
 			)
 			(circle
+				(center 1.778 -5.08)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.778 0)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.778 5.08)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "DB7W2-Male_1_1"
+			(circle
 				(center 0 10.16)
 				(radius 2.54)
 				(stroke
@@ -1314,35 +1689,11 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-			(circle
-				(center 1.27 -2.54)
-				(radius 0.762)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 2.54)
-				(radius 0.762)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "DB7W2_1_1"
 			(pin passive line
-				(at -7.62 10.16 0)
+				(at 7.62 -2.54 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1360,7 +1711,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -10.16 0)
+				(at 7.62 2.54 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1378,7 +1729,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 5.08 0)
+				(at 7.62 -5.08 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1396,7 +1747,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at 7.62 0 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1414,7 +1765,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -5.08 0)
+				(at 7.62 5.08 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1432,7 +1783,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 2.54 0)
+				(at 7.62 -10.16 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1441,7 +1792,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1450,7 +1801,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
+				(at 7.62 10.16 180)
 				(length 3.81)
 				(name ""
 					(effects
@@ -1459,25 +1810,7 @@
 						)
 					)
 				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -16.51 90)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
+				(number "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
