@@ -1435,14 +1435,14 @@
 			(pin passive line
 				(at 7.62 -10.16 180)
 				(length 3.81)
-				(name "A1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1453,14 +1453,14 @@
 			(pin passive line
 				(at 7.62 10.16 180)
 				(length 3.81)
-				(name "A2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1786,14 +1786,14 @@
 			(pin passive line
 				(at 7.62 -10.16 180)
 				(length 3.81)
-				(name "A1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1804,14 +1804,14 @@
 			(pin passive line
 				(at 7.62 10.16 180)
 				(length 3.81)
-				(name "A2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
