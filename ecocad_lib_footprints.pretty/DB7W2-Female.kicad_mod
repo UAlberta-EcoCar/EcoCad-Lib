@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "DB7W2-Female"
 		(at -1.343 -0.521 180)
 		(layer "F.Fab")
 		(hide yes)
@@ -269,22 +269,6 @@
 		(uuid "1c496a65-001f-47ac-b69e-66dd7186ca03")
 	)
 	(pad "8" thru_hole circle
-		(at -16.623 -0.956 180)
-		(size 4.5 4.5)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "2b455ed5-1f93-40d7-a987-deccf06ad601")
-	)
-	(pad "8" thru_hole circle
-		(at 16.677 -0.956 180)
-		(size 4.5 4.5)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "7f04a24d-495e-4cf6-9470-3749b87ad6c7")
-	)
-	(pad "A1" thru_hole circle
 		(at 6.86 -1.556 180)
 		(size 6 6)
 		(drill 4)
@@ -292,7 +276,7 @@
 		(remove_unused_layers no)
 		(uuid "ecf6bbe3-6183-49e1-9cdb-298c8851cffd")
 	)
-	(pad "A2" thru_hole circle
+	(pad "9" thru_hole circle
 		(at -6.86 -1.556 180)
 		(size 6 6)
 		(drill 4)
@@ -300,9 +284,25 @@
 		(remove_unused_layers no)
 		(uuid "a8fcc8f3-be29-4421-a22a-8f28af124a53")
 	)
+	(pad "MH1" thru_hole circle
+		(at 16.677 -0.956 180)
+		(size 4.5 4.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f04a24d-495e-4cf6-9470-3749b87ad6c7")
+	)
+	(pad "MH2" thru_hole circle
+		(at -16.623 -0.956 180)
+		(size 4.5 4.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b455ed5-1f93-40d7-a987-deccf06ad601")
+	)
 	(model "${ECOCAD_3DMODELS}/09692009032_100633093MOD000B.stp"
 		(offset
-			(xyz -0.103 -11 7.5)
+			(xyz 0 -10.5 7.5)
 		)
 		(scale
 			(xyz 1 1 1)
