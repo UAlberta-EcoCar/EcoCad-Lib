@@ -1240,7 +1240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT223_AZ1117I_6P5X3P5_DIO"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at -1.27 -10.16 0)
 			(effects
 				(font
@@ -1267,14 +1267,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "AZ1117IH-3.3TRG1"
@@ -18547,7 +18539,7 @@
 				)
 			)
 		)
-		(property "Value" "AZ1117IH-5.0"
+		(property "Value" ""
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -18555,7 +18547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at -1.27 -10.16 0)
 			(effects
 				(font
