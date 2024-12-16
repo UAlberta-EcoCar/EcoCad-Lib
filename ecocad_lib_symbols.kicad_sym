@@ -11622,46 +11622,28 @@
 			)
 		)
 	)
-<<<<<<< HEAD
-	(symbol "Joystick"
-=======
 	(symbol "ISO6521"
->>>>>>> 5ccd011af9ca06305f3b519732f1d1629229f277
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-<<<<<<< HEAD
-			(at 0 0 0)
-=======
 			(at 0 8.89 0)
->>>>>>> 5ccd011af9ca06305f3b519732f1d1629229f277
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Value" ""
-			(at 0 0 0)
-=======
 		(property "Value" "ISO6521"
 			(at 0 6.985 0)
->>>>>>> 5ccd011af9ca06305f3b519732f1d1629229f277
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-<<<<<<< HEAD
-		(property "Footprint" ""
-			(at 0 0 0)
-=======
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 1.27 -10.16 0)
->>>>>>> 5ccd011af9ca06305f3b519732f1d1629229f277
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11669,13 +11651,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(property "Datasheet" ""
-			(at 0 0 0)
-=======
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/iso6520.pdf?ts=1717675471267&ref_url=https%253A%252F%252Feu.mouser.com%252F"
 			(at 1.27 -10.16 0)
->>>>>>> 5ccd011af9ca06305f3b519732f1d1629229f277
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11692,17 +11669,10 @@
 				(hide yes)
 			)
 		)
-<<<<<<< HEAD
-		(symbol "Joystick_0_1"
-			(rectangle
-				(start -2.54 2.54)
-				(end 2.54 -3.81)
-=======
 		(symbol "ISO6521_1_1"
 			(rectangle
 				(start -10.16 5.715)
 				(end 10.16 -6.985)
->>>>>>> 5ccd011af9ca06305f3b519732f1d1629229f277
 				(stroke
 					(width 0)
 					(type default)
@@ -11711,19 +11681,10 @@
 					(type background)
 				)
 			)
-<<<<<<< HEAD
-		)
-		(symbol "Joystick_1_1"
-			(pin output line
-				(at 5.08 1.27 180)
-				(length 2.54)
-				(name "VRx"
-=======
 			(pin input line
 				(at -12.7 3.175 0)
 				(length 2.54)
 				(name "VCC1"
->>>>>>> 5ccd011af9ca06305f3b519732f1d1629229f277
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11738,17 +11699,10 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin output line
-				(at 5.08 -2.54 180)
-				(length 2.54)
-				(name "VRy"
-=======
 			(pin input line
 				(at -12.7 0.635 0)
 				(length 2.54)
 				(name "OUTA"
->>>>>>> 5ccd011af9ca06305f3b519732f1d1629229f277
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11763,17 +11717,10 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-			(pin output line
-				(at -2.54 -6.35 90)
-				(length 2.54)
-				(name "SW"
-=======
 			(pin input line
 				(at -12.7 -1.905 0)
 				(length 2.54)
 				(name "INB"
->>>>>>> 5ccd011af9ca06305f3b519732f1d1629229f277
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11788,8 +11735,6 @@
 					)
 				)
 			)
-<<<<<<< HEAD
-=======
 			(pin input line
 				(at -12.7 -4.445 0)
 				(length 2.54)
@@ -11880,7 +11825,6 @@
 					)
 				)
 			)
->>>>>>> 5ccd011af9ca06305f3b519732f1d1629229f277
 		)
 	)
 	(symbol "LM25122QPWPRQ1"
