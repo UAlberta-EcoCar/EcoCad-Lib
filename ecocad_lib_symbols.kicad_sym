@@ -1369,15 +1369,15 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at -3.175 0 0)
+		(property "Value" "Female Conn"
+			(at -3.556 16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "ecocad_lib_footprints:DB7W2-30A"
+		(property "Footprint" "ecocad_lib_footprints:DB7W2-Female"
 			(at -0.508 18.796 0)
 			(effects
 				(font
@@ -1720,21 +1720,20 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "Male Conn"
+			(at 8.128 14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ecocad_lib_footprints:DB7W2-Male"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
