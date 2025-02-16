@@ -1,0 +1,240 @@
+(footprint "L_Kemet_3u3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "Inductor mwsa")
+	(property "Reference" "REF**"
+		(at 0 -12 0)
+		(layer "F.SilkS")
+		(uuid "1825c330-b232-42f5-9f7d-1fb621499ead")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Kemet_3u3"
+		(at 0 12 0)
+		(layer "F.Fab")
+		(uuid "6e128796-f7b0-4a33-ae74-0df379ccf4b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "204c7978-6c65-4739-9b6f-2cfee62447f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db7d8702-d136-46c2-b033-b9827c1fd4fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "513d1faf-457f-46f9-81d8-ef57b48d0cc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -12.01 -11.26)
+		(end -12.01 -10.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab0b334e-2c53-4728-ab46-dc348305db61")
+	)
+	(fp_line
+		(start -12.01 -11.26)
+		(end 12.01 -11.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e80fef7-b0fd-4382-add4-7ab054afa68c")
+	)
+	(fp_line
+		(start -12.01 11.26)
+		(end -12.01 10.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fac7a662-fb79-49f9-a524-71cbace15def")
+	)
+	(fp_line
+		(start -12.01 11.26)
+		(end 12.01 11.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adda34df-7fb9-47ef-85c1-38abf85ccd63")
+	)
+	(fp_line
+		(start 12.01 -11.26)
+		(end 12.01 -10.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34a004ba-792e-4dc6-87a0-90cd745feae0")
+	)
+	(fp_line
+		(start 12.01 11.26)
+		(end 12.01 10.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8db2af6-8237-435c-8ea6-902c03fe6dd9")
+	)
+	(fp_line
+		(start -12.25 -11.25)
+		(end -12.25 11.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f83345cc-9cdb-45fa-8496-55ce0507d28e")
+	)
+	(fp_line
+		(start -12.25 11.25)
+		(end 12.25 11.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c928e000-0f02-4af4-ab83-fbb4008f01a1")
+	)
+	(fp_line
+		(start 12.25 -11.25)
+		(end -12.25 -11.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80e602bc-9c8d-4863-bb2e-24b2e40d9aab")
+	)
+	(fp_line
+		(start 12.25 11.25)
+		(end 12.25 -11.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a41fd105-fea5-479f-a37a-022d77bd6d30")
+	)
+	(fp_line
+		(start -11.75 -11)
+		(end -11.75 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1039cd15-0905-45fc-9835-cffc0b86a3da")
+	)
+	(fp_line
+		(start -11.75 11)
+		(end 11.75 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec094ec6-09c2-425c-8918-5adc66d9a4a0")
+	)
+	(fp_line
+		(start 11.75 -11)
+		(end -11.75 -11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "653ce2b8-868c-4c25-9c5d-92a89219acee")
+	)
+	(fp_line
+		(start 11.75 11)
+		(end 11.75 -11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f64da7f-dfe5-4dbd-bfa4-78c9235fb6ee")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8457873e-71ef-4738-bb5a-e97f4c599cd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -9.125 0)
+		(size 5.75 19.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "61f84ad4-9efa-4545-96a9-6a150b711282")
+	)
+	(pad "2" smd rect
+		(at 9.125 0)
+		(size 5.75 19.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "568576c5-20bc-4dc3-ba21-b9f51dd32fca")
+	)
+	(model "${ECOCAD_3DMODELS}/MPXV1D2213L3R3_inductor.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 180)
+		)
+	)
+)
