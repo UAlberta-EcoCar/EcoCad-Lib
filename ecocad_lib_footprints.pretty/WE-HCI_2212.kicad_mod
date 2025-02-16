@@ -1,0 +1,203 @@
+(footprint "WE-HCI_2212"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b> <br><b>WE-HCI SMD Flat Wire High Current Inductor<br></b><pre> <b><font size=\"4\">Size: </b>2212")
+	(property "Reference" "REF**"
+		(at -0.3 -12.545 0)
+		(layer "F.SilkS")
+		(uuid "1174bd6c-29d8-4077-896b-e294417cff14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-HCI_2212"
+		(at 3.485 12.175 0)
+		(layer "F.Fab")
+		(uuid "db55c305-94f4-44ff-adeb-da9f664b99f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "WE-HCI_2212"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "076eca3b-8eb2-4ca6-9025-fa5c76b2a0a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41085802-2829-47f9-85d8-d3f6b422dfcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c100d84-ffc0-4e72-aa65-d784084bf098")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -11.35 -11.1)
+		(end 11.35 -11.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6096943e-915d-42d6-851d-1de9964938d4")
+	)
+	(fp_line
+		(start -11.35 -3.1)
+		(end -11.35 -11.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb46d96a-a274-418e-acea-94d176a09951")
+	)
+	(fp_line
+		(start -11.35 3.1)
+		(end -11.35 11.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ea8d4b7-91de-4a5c-8e5f-2f4fb097d028")
+	)
+	(fp_line
+		(start -11.35 11.1)
+		(end 11.35 11.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "977fcaa2-92eb-4a05-bb69-ff04a4e74382")
+	)
+	(fp_line
+		(start 11.35 -11.1)
+		(end 11.35 -3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efe93537-9698-4192-8660-230be855d001")
+	)
+	(fp_line
+		(start 11.35 11.1)
+		(end 11.35 3.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbc0d51c-5797-45bd-8948-441801967b4e")
+	)
+	(fp_poly
+		(pts
+			(xy -11.95 11.3) (xy -11.95 -11.3) (xy 11.95 -11.3) (xy 11.95 11.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "6c9d3207-8818-4850-81f6-488dcbce445c")
+	)
+	(fp_line
+		(start -11.25 -11)
+		(end -11.25 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87cf381d-f495-49ce-a25c-a8cbb681f99e")
+	)
+	(fp_line
+		(start 11.25 -11)
+		(end -11.25 -11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31459ff2-ec48-458d-947e-349b99edb3e4")
+	)
+	(fp_line
+		(start 11.25 -11)
+		(end 11.25 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbb823b2-4e3f-47b0-97df-a2673a1b24d5")
+	)
+	(fp_line
+		(start 11.25 11)
+		(end -11.25 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "412b9fec-8f6d-44c0-8d86-22a25cd74f58")
+	)
+	(pad "1" smd rect
+		(at 8.25 0)
+		(size 7 5.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "73f5966a-1db6-419b-a468-23576b206d8e")
+	)
+	(pad "2" smd rect
+		(at -8.25 0)
+		(size 7 5.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "e75885f5-3444-4f7b-aa32-50df1156e62a")
+	)
+	(model "${ECOCAD_3DMODELS}/MPX1D2213.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

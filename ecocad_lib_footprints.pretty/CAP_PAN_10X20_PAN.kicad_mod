@@ -1,0 +1,249 @@
+(footprint "CAP_PAN_10X20_PAN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "ECA1HM471B ")
+	(property "Reference" "REF**"
+		(at 2.5019 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "60d0ab40-3d1e-4fb0-8927-1af533a4c567")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP_PAN_10X20_PAN"
+		(at 2.5019 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2587320e-6c82-4842-9a73-abe23c0084f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "CAP_PAN_10X20_PAN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bbcb223-3c52-4913-a4cb-aa286fe3a479")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e8baa32-4d9a-4dfb-9b3f-9074d5161634")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f73026c8-f675-4303-a742-c7456e59ced1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.2672 0)
+		(end -2.9972 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35f512ad-e2b8-44ed-8944-3e71b776e156")
+	)
+	(fp_line
+		(start -3.6322 -0.635)
+		(end -3.6322 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e42174a0-c3c3-4437-ae5a-dac91e5d6ee6")
+	)
+	(fp_circle
+		(center 2.5019 0)
+		(end 7.874 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a9275506-ef20-4775-bc43-ab33b03136f0")
+	)
+	(fp_line
+		(start -2.9972 -2.264336)
+		(end 0.237564 -5.4991)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "212731b6-423a-490c-866d-ac509bd33138")
+	)
+	(fp_line
+		(start -2.9972 2.264336)
+		(end -2.9972 -2.264336)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "874640ac-13c3-4ae3-a743-969d1ae5385f")
+	)
+	(fp_line
+		(start 0.237564 -5.4991)
+		(end 4.766236 -5.4991)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e67ac4c-de17-4f2f-9e7c-392e9ce13a65")
+	)
+	(fp_line
+		(start 0.237564 5.4991)
+		(end -2.9972 2.264336)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1242c613-aebd-4505-bb3e-5fedf5faa2fc")
+	)
+	(fp_line
+		(start 4.766236 -5.4991)
+		(end 8.001 -2.264336)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae77e838-4e02-44ae-9077-f08b07d7b748")
+	)
+	(fp_line
+		(start 4.766236 5.4991)
+		(end 0.237564 5.4991)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f563c4ce-ddca-43c1-bd28-24523b822b2d")
+	)
+	(fp_line
+		(start 8.001 -2.264336)
+		(end 8.001 2.264336)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4277c586-d00d-46d6-82a8-1db9a4aa0751")
+	)
+	(fp_line
+		(start 8.001 2.264336)
+		(end 4.766236 5.4991)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10251781-c0e9-4009-a641-91266c2657d0")
+	)
+	(fp_line
+		(start -4.2672 0)
+		(end -2.9972 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b56e02d-50b5-46b1-b2cb-fce54e501c3d")
+	)
+	(fp_line
+		(start -3.6322 -0.635)
+		(end -3.6322 0.635)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef03a8d4-ef2d-49b1-be7b-85c18abd6064")
+	)
+	(fp_circle
+		(center 2.5019 0)
+		(end 7.747 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7dee6c44-ae03-4855-b50e-20077eaa70a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5019 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd4f5a88-78f8-4b41-bdb3-996ac631c9a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4224 1.4224)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ff02c87-77f9-4848-9917-9d30540cecd0")
+	)
+	(pad "2" thru_hole circle
+		(at 5.0038 0)
+		(size 1.4224 1.4224)
+		(drill 0.9144)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "940deefe-b9b4-41f6-a483-e5df29288273")
+	)
+	(model "${ECOCAD_3DMODELS}/CAP_PAN_10X20_PAN.step"
+		(offset
+			(xyz 5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)
